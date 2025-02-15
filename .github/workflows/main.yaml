@@ -20,5 +20,5 @@ jobs:
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-        run: surge . --project ./ --domain githubactions.surge.sh
+        run: surge . --project ./ --domain https://githubactions.surge.sh
 
